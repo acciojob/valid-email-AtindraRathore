@@ -1,5 +1,6 @@
 function validEmail(str) {
   //your JS code here.
+	return str.match(/[a-z][@]/);
 }
 
 // Do not change the code below.
